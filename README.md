@@ -95,3 +95,41 @@ String: which is a sequence of characters and is usedto store and manipulate tex
 Arrays: is an unodred collection of elements of the same data type.It allows storing multiple values under a single variable name.
 Classes: they define object's properties and behavior.
 
+Declaring and Initializing Variaables
+
+To use variable, it must be declared with a specific datatype.
+Declaring a variable involves specifying the variables name name and datatype.
+For example, you can use the following syntax to declare interger variable naamed count:
+int count;
+
+Variables can also be initialized at the time of declaration by assigning them a value.
+For example, to declare and initialize an integer variable named score with a value 100:
+int score= 100;
+
+Variables can be assigned new values using the assignment operator(=) 
+For example score= 85;
+
+Variable naming Rules and conventins
+The following Rules must be followed when naming variabesin Java:
+
+Variable names must start with a letter, dollar sign or an undersore.
+Variable names can consist of letters, digits, dollar signs and underscores.
+Variable names are case sensitive.
+Variable names should be descriptive but not excessively long.
+Use a camel case for multi-word variable, starting with a lowercase letter(studentName, totalScore).
+
+Types of Converions 
+
+Java provudes automatic type conversion, also known as type casting to handle different data types interactions.
+Type casting can occur in the following two ways:
+
+Implicit Casting: occurs when a smaller data type is assigned to a larger data type.
+For example:
+int num=100
+double decimal=num;
+
+Explicit Casting: occurs when a larger data type is assigned to a smaller data type.
+It requires manual casting, as it may result in data loss or overflow.
+for example:
+double decimal=3.14;
+int num=(int) decimal;
