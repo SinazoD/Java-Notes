@@ -86,3 +86,12 @@ It can store any unicode character.
 Boolean: represents true or false values.
 It is commonly used for conditional statements and loops
 
+Reference Data Types
+
+These data types are created using predefined classes or user defined classes.
+Some commonly used reference data types include the following:
+
+String: which is a sequence of characters and is usedto store and manipulate text.
+Arrays: is an unodred collection of elements of the same data type.It allows storing multiple values under a single variable name.
+Classes: they define object's properties and behavior.
+
