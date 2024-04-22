@@ -172,3 +172,27 @@ default:
 //code to be executed  if expression does not match any case
 break;
 }
+
+Looping Statements
+Looping statements allow programmers to repeat a block of code multiple times until a specific condition is met.
+There are three main looping statements in Java:
+
+while loop: repeatedly exexutes a block of code as long as a certain condition is true.
+It is commonly used when the number of iterations is unknown.
+Syantax of while loop:
+while(condition){
+//code to be executed repeatedly as long as a condition is true}
+
+do-while loop
+This also executes a block of code repeatedly as long as a specific 
+condition is true.                  Basic Syntax:
+do{
+//code to be executed repeatedly as long as condition is true
+} while.                            (condition);
+For loop
+The for loop is used to execute a block of code a specific number of times
+
+Basic syntax of a for loop:
+for (initialization,condition,update){
+//code to be executed repeatedly until condition is false
+}
