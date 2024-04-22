@@ -28,4 +28,34 @@ Some control flow statements include:
 
 If statements: used to execute a block of code only if the a certain condition is true
 For loop: used to execute a block of code repeatedly for a number of times
-while loop: uysed to execute a block of code repeatedly as long as a certain condition is true
+while loop: used to execute a block of code repeatedly as long as a certain condition is true
+
+Object-Oriented Programming(OOP)
+
+Java is an object-oriented progr amming language.
+Which means it relies heavily on the concept of objects and classes.
+
+Java supports the following principles of OOP
+
+Encapsulation: the act of encapsuling data and methods within a class.
+Inheritance: the ability to create new classes based on the existing ones.
+Polymophism: the ability to use a single interfase to represent different objects.
+
+Exeption Handling 
+
+Exeption Handling are unexpected events that can occur during the execution of a program.
+The try-catch-finally blocks are used to handle exeptions in Java
+
+File Input and Output
+
+File input and output (I/O) operators are useful when dealing with large sets of data
+Or when retrieving and storing information from external sources.
+Some common classes used for I/O operators in Java include File, Scanner and PrintWriter
+
+Variables and datatypes
+
+Variables are used to store and manipulate data.
+A variable is like a container that that holds a value, which can be a number, text or any other type of data.
+Before using a variable, it needs to be declared with a specific data type.
+
+Data types
