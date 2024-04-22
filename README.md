@@ -59,3 +59,30 @@ A variable is like a container that that holds a value, which can be a number, t
 Before using a variable, it needs to be declared with a specific data type.
 
 Data types
+
+Java has eight Primitive data types which are:
+
+Byte: is a data type that can range from -128 to 127.
+It is used to store or save memory in large arrays where the memory savings are significant.
+
+Short: s short data type can range from -32,768 to 32,767. 
+It is used mainly to save memory in arrays or dealing with graphical data.
+
+int: can store whole numbers ranging from -2,147,648,648 to 2,1,147,483,647.
+It is the default type for whole numbers in Java.
+
+long: can store larger data whole numbers ranging from -9,223,372,036,854,777,808 to 9,223,372,036,854,777,807.
+It is often used when dealing with very large numbers.
+
+Float: It is used to store fractional numbers ranging from 3.4e^-038 to 3.4e^+038.
+It is mostly used for scientific calculations and situations that require large range of values.
+
+Double: It can store fractional numbers with a larger range and precision than float
+It can hold values from 1.7e^-308 to 1.7e^+308 and is the default choice for decimal values.
+
+Char: is a data type that represents a single character
+It can store any unicode character.
+
+Boolean: represents true or false values.
+It is commonly used for conditional statements and loops
+
