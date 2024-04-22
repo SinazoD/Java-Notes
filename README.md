@@ -133,3 +133,42 @@ It requires manual casting, as it may result in data loss or overflow.
 for example:
 double decimal=3.14;
 int num=(int) decimal;
+
+Control flow and decision making
+
+Control flow is the order in which statements are executed in a program.
+It allows programmers to control the flow of execution and direct the program to perform a specific actions based on certain conditions.
+
+Conditional Statements
+
+Conditional statements enable programmers to specify different actions based on certain conditions.
+Java has the following three conditional statements:
+
+If statements: allows the program to execute a block of code only if a specific condition is met.
+Basic syntax of the if statement:
+if(condition){
+//code to be executed if condition is true}
+
+if-else statement: provides an alternative block of code to be executed if condition in the statement is not satisfied.
+It allows the program to take different paths depending on whether the condition is true or false
+Basic syntax of if-else statement:
+if(condition){
+//code to be executed if condition is true
+}else{
+//code to be executed if condition is false}
+
+Switch statement: allows the program to be executed based on the value of a variable or an expression.
+It is particularly useful when there are multiple possible ceses to consider.
+Basic syntax of Switch statement:
+switch(expression){
+case value1:
+//code to be executed if expression equals value1
+break;
+case value2:
+// code to be executed if expression equals value 2
+break;
+//additional cases
+default:
+//code to be executed  if expression does not match any case
+break;
+}
